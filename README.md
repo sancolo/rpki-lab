@@ -56,8 +56,12 @@ For more examples and ideas, visit:
  https://docs.docker.com/engine/userguide/
 
 ```
-Finalmente agregar al grupo docker el suario habilitado a correr Docker
+Es buena practica agregar al grupo docker el usuario habilitado a correr Docker
  
 ```sh
 # usermod -aG docker $USER
+```
+Finalmente agregamos el servicio Docker para que se ejecute cada vez que se re-inicie Debian.
+```sh
+# systemctl enable docker
 ```
