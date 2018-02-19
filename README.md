@@ -4,7 +4,7 @@ Este es Laboratorio de RPKI basado en Debian 9, Docker, RIPE RPKI Validator, Bir
 
 # Descripción
 
-El laboratorio consiste en correr en diferentes contenedores sobre Docker instancias del validador RPKI de RIPE, del demonio Bird y Quagga ambos intercambiando rutas 
+El laboratorio consiste en correr en diferentes contenedores sobre Docker que contienen instancias del validador RPKI de RIPE, del demonio Bird y Quagga. Cada contenedor ejecuta BGP con su propio AS y anuncia rutas que son validadas en su propia tabla de ROA obtenidas periodicamente del validador RPKI. 
 
 Para cada demonio se provee el archivo Dockerfile para la creación de la imagen, la configuración utilizada, la ejecución bajo docker y el acceso a la consola de cada router que corre como un contenedor.
 
