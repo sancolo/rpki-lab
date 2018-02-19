@@ -65,3 +65,9 @@ Finalmente agregamos el servicio Docker para que se ejecute cada vez que se re-i
 ```sh
 # systemctl enable docker
 ```
+### RPKI Validator, Bird y RTRLib+Quagga
+
+La instalación, configuración y detalles de la ejecución de cada contenedor se describen en el README.md de cada directorio. Es importante seguir el siguiente orden en la instalación:
+1. RIPE RPKI Validator versión 2.24 (https://lirportal.ripe.net/certification/content/static/validator/rpki-validator-app-2.24-dist.tar.gz)
+2. Bird versión 2.0.1 (https://github.com/BIRD/bird/archive/v2.0.1.zip)
+3. RTRLib versión v0.3.6 (https://github.com/rtrlib/rtrlib/archive/v0.3.6.tar.gz) + quagga-rtrlib (https://github.com/rtrlib/quagga-rtrlib)
