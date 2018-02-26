@@ -1,4 +1,3 @@
-```sh
 
 FROM debian:stable
 
@@ -37,5 +36,3 @@ RUN cd bird-2.0.1 && \
 	make install
 
 CMD bird -c /etc/bird/bird.conf -d
-
-```
