@@ -6,7 +6,7 @@ Para ejecutar la version 2.0.1 de bird dentro de un contenedor de docker seguimo
 ```sh
 $ mkdir mydockerbuild_bird
 $ cd mydockerbuild_bird
-$ vi DockerFile
+$ wget https://github.com/sancolo/rpki-lab/bird/Dockerfile
 $ sudo docker build -t bird-2.0.1 .
 ```
 2. Verificamos que la imagen esta creada en el host
@@ -19,7 +19,7 @@ bird-2.0.1                  latest              6c4040cd8d28        11 days ago 
 ```sh
 $ mkdir $HOME/rbird1
 $ cd $HOME/rbird1
-$ vi bird.conf
+$ wget https://github.com/sancolo/rpki-lab/blob/lunes/bird/bird.conf
 ```
 4. Ejecutamos el contenedor a partir de la imagen creada y montando el directorio local donde se encuentra el archivo de configuracion bird.conf para BIRD
 ```sh
