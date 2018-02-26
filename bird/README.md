@@ -28,10 +28,10 @@ $ sudo docker run -d --privileged --name rbird1 -v `$HOME/rbird1:/etc/bird:rw bi
 5. Verificamos que el contenedor se esta ejecutando
 ```sh
 $ docker ps
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                                            NAMES
-1611c3c34128        bird-2.0.1          "/bin/sh -c 'bird -c…"   6 days ago          Up 6 days           179/tcp                                          rbird1
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                NAMES
+1611c3c34128        bird-2.0.1          "/bin/sh -c 'bird -c…"   6 days ago          Up 6 days     179/tcp                     rbird1
 ```
-6. 
+6. Para entrar al contenedor ejecutamos
 ```sh
 sudo docker exec -it rbird1 /bin/bash
 root@1611c3c34128:~# birdc
