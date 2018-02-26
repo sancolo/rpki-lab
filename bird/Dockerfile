@@ -1,8 +1,6 @@
 
 FROM debian:stable
 
-MAINTAINER Santiago Aggio <sancolo@gmail.com>
-
 EXPOSE 179
 
 RUN apt-get update && apt-get install -y \
