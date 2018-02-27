@@ -7,7 +7,7 @@ $ docker images
 ```sh
 $ docker ps
 ```
-- Listado de dispositivos de red
+- Listado de drivers de red
 ```sh
 $ docker network list
 ```
