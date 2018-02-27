@@ -2,7 +2,7 @@
 
 Para ejecutar la version 2.0.1 de bird dentro de un contenedor de docker seguimos los siguientes pasos
 
-1. Creamos una imagen de docker a partir del archivo [Dockerfile](Dokerfile)
+1. Creamos una imagen de docker a partir del archivo [Dockerfile](Dockerfile)
 ```sh
 $ mkdir mydockerbuild_bird
 $ cd mydockerbuild_bird
