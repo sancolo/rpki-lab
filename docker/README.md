@@ -6,6 +6,10 @@ $ docker images
 - Ver procesos contenedores corriendo en el host
 ```sh
 $ docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                                            NAMES
+1611c3c34128        bird-2.0.1          "/bin/sh -c 'bird -c…"   7 days ago          Up 7 days           179/tcp                                          rbird1
+c9f391a27ed9        bird-2.0.1          "/bin/sh -c 'bird -c…"   7 days ago          Up 7 days           179/tcp                                          rbird2
+d19077c0d04e        rpki-validator      "/rpki-validator-app…"   3 weeks ago         Up 12 days          0.0.0.0:8080->8080/tcp, 0.0.0.0:8282->8282/tcp   rpki-validator
 ```
 - Listado de drivers de red
 ```sh
