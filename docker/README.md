@@ -40,7 +40,7 @@ bird: Ignore invalid ROA 2001:13c7:7012::/49 for ASN 65002
 ```
 - Parar un contenedor
 ```sh
-$ docker stop
+$ docker stop rbird1
 ```
 - Remover un contenedor
 ```
