@@ -3,15 +3,15 @@
 ```sh
 $ docker images
 ```
-* 
+* Ver procesos contenedores corriendo en el host
 ```sh
 $ docker ps
 ```
-*
+* Listado de dispositivos de red
 ```sh
 $ docker network list
 ```
-* 
+* Detalle de un dispositivo de red (Ej: bridge)
 ```sh
 $ docker network inspect bridge
 ```
