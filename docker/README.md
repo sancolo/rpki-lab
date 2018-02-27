@@ -10,6 +10,10 @@ $ docker ps
 - Listado de drivers de red
 ```sh
 $ docker network list
+NETWORK ID          NAME                DRIVER              SCOPE
+b998edd187a9        bridge              bridge              local
+b027bfad4f40        host                host                local
+faa9cfb38174        none                null                local
 ```
 - Detalle de un dispositivo de red (Ej: bridge)
 ```sh
