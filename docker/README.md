@@ -1,23 +1,23 @@
-Docker commands and tips
-
+### Docker commands and tips
+* Listado de imagenes en el host
 ```sh
 $ docker images
 ```
-
+* 
 ```sh
 $ docker ps
 ```
-
+*
 ```sh
 $ docker network list
 ```
-
+* 
 ```sh
 $ docker network inspect bridge
 ```
-
+* Logs de un contenedor (Ej: rbird1)
 ```sh
-$ docker  logs --tail 20 rbird1
+$ docker logs --tail 20 rbird1
 . . . . . 
 bird: Reconfiguring
 bird: Reloading channel bgp1.ipv4
