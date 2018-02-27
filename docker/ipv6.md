@@ -2,7 +2,8 @@
 
 Para habilitar IPv6 en Docker es necesario indicarlo con la opcion `--ipv6` al momento de correr el contenedor o habilitar la opcion `ipv6:` en el archivo de configuración. 
 
-Si la subred es un /64, podemos definir un /80 para asignar a cada contenedor
+Si queremos asignar un bloque fijo IPv6 a los contenedores, es necesario hacerlo en el archivo daemon.json utilizando la opcion `fixed-cidr-v6`.  
+Por ejemplo, si la subred es un /64, podemos definir un /80 desde donde asignar direcciones IPv6 a cada contenedor
 
 ```sh
 # cat /etc/docker/daemon.json
