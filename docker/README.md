@@ -1,21 +1,21 @@
 ### Docker commands and tips
-* Listado de imagenes en el host
+- Listado de imagenes en el host
 ```sh
 $ docker images
 ```
-* Ver procesos contenedores corriendo en el host
+- Ver procesos contenedores corriendo en el host
 ```sh
 $ docker ps
 ```
-* Listado de dispositivos de red
+- Listado de dispositivos de red
 ```sh
 $ docker network list
 ```
-* Detalle de un dispositivo de red (Ej: bridge)
+- Detalle de un dispositivo de red (Ej: bridge)
 ```sh
 $ docker network inspect bridge
 ```
-* Logs de un contenedor (Ej: rbird1)
+- Logs de un contenedor (Ej: rbird1)
 ```sh
 $ docker logs --tail 20 rbird1
 . . . . . 
