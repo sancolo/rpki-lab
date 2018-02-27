@@ -1,5 +1,5 @@
 ### Docker commands and tips
-- Listado de imagenes en el host
+- Listado de imagenes disponibles en el host
 ```sh
 $ docker images
 ```
