@@ -15,7 +15,7 @@ $ docker images
 REPOSITORY                  TAG                 IMAGE ID            CREATED             SIZE
 bird-2.0.1                  latest              6c4040cd8d28        11 days ago         392MB
 ```
-3. Creamos el directorio rbird1 y copiamos el archivo bird.conf de este repositorio en el directorio
+3. Creamos el directorio rbird1 y copiamos el archivo [rbird1.conf](rbird1.conf) en el directorio rbird1
 ```sh
 $ mkdir $HOME/rbird1
 $ cd $HOME/rbird1
