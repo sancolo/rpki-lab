@@ -38,6 +38,14 @@ bird: Accept unknown ROA 2000::/4 for ASN 65002
 bird: Ignore invalid ROA 2001:13c7:7012::/49 for ASN 65002
 . . . . .
 ```
+- Parar un contenedor
+```sh
+$ docker stop
+```
+- Remover un contenedor
+```
+$ docker rm rbird1
+```
 
 
 
