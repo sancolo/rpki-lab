@@ -19,7 +19,7 @@ bird-2.0.1                  latest              6c4040cd8d28        11 days ago 
 ```sh
 $ mkdir $HOME/rbird1
 $ cd $HOME/rbird1
-$ wget https://github.com/sancolo/rpki-lab/blob/lunes/bird/rbird1.conf
+$ wget https://github.com/sancolo/rpki-lab/bird/rbird1.conf
 $ ln -s rbird1.conf bird.conf
 ```
 4. Ejecutamos el contenedor a partir de la imagen creada y montando el directorio local donde se encuentra el archivo de configuracion bird.conf para BIRD
