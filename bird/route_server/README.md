@@ -6,5 +6,5 @@ Esta implementación permite ejecutar el root server en producción ejecutando e
 
 
 
-Otra opción es un escenario de laboratorio que implementa en diferentes contenedores al rpki-validator, un Root Server, y 2 miembros del IXP denominados m1y m2. 
+Otra opción es un escenario de laboratorio que implementa en diferentes contenedores al rpki-validator, un Root Server, y 2 miembros del IXP denominados m1 y m2 con BIRD.
 
