@@ -4,5 +4,7 @@
 
 Esta implementación permite ejecutar el root server en producción ejecutando en un contenedor a BIRD como RS y en otro contenedor al rpki-validator.
 
+
+
 Otra opción es un escenario de laboratorio que implementa en diferentes contenedores al rpki-validator, un Root Server, y 2 miembros del IXP denominados m1y m2. 
 
